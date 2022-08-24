@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body class="background1">
+    <div class = "header">
+        <div id="logo">
+            <img src="IIIT-Bangalore-Logo.jpg" alt="IIIT-Bangalore-Logo">
+        </div>
+        <h1>
+            <br>
+            <br>
+            <div id = "office">
+                Office of The Hostel Warden International Institute of Information Technology
+            </div>
+
+            </h1>
+            <form action="https://www.iiitb.ac.in" class="butto">
+                
+                <input type="submit" value="Go to main page" />
+            </form>
+        <!-- this will contain the header part of the website-->
+    </div>
+    <center>
+        <div class="Options_type">
+            <h1 class="heading">
+                <br>
+                Complaints-Form
+            
+            </h1>
+            <div class = "Complaints-Form">
+                <form action="complaints_confirm_page.html" method="get" id="form1">
+                    <br>
+                    <table>
+                        <tr>
+                    <label for="nature of problem">Nature of Problem:</label>
+                    <select name="problem" id="problem">
+                        <option value="Electrical Complaint">Electrical Complaint</option>
+                        <option value="Civil or Washroom Complaint">Civil or Washroom Complaints</option>
+                        <option value ="Water Supply">Water Supply</option>
+                        <option value = "Fire Fighting Issue">Fire Fighting Issue</option>
+                        <option value ="Food and Mess">Food and Mess</option>
+                        <option value = "Security">Security</option>
+                        <option value = "rommate">Roomate problems</option>
+
+                    </select>
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                    <label for="Hostel-Block">Hostel-Block:</label>
+                    <select name="Hostel" id="Hostel">
+                        <option value="Bhaskara">Bhaskara</option>
+                        <option value="Lilavati">Lilavati</option>
+                        <option value ="Visveshwaraya">Visveshwaraya</option>
+                    </select>
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <label for="name">
+                        Your Name
+                    </label>
+                    <input type="text" placeholder="enter you name">
+                    </tr>
+                    <br>
+                    <br>
+                    <tr>
+                   <label for="rollno">
+                        Your rollno
+                    </label>
+                    <input type="text" placeholder="enter your IIITB rollno">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <label for="room no">Room Number</label>
+                    <input type="text">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="enter you iiitb email">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <label for="number">Phone Number
+                    </label>
+                    <input type="text" placeholder="enter you 10 digit number">
+                    </tr>
+                    <br><br>
+                    <tr>
+                    <label for="Description">Tell us about your issue in brief</label>
+                    <input type="text" placeholder="describe your issure here in brief" size="50" width="10">
+                    </tr>
+                    <br><br>
+                    <!--
+                    <tr>
+                        <input type="submit" value="Submit" class="butt">
+                    </tr>
+                -->
+                    </table>
+                </form>
+                <button type="submit" form="form1" value="Submit" id="form-submit-button">
+                    Submit
+                </button>
+                <br><br>
+
+            </div>
+
+
+        </div>
+    </center>
+     <!-- this will contain the contact us place and this should be at the bottom pf the page-->
+    <div class="bottom">
+        <img src="bottom.png" alt="iiitb" id="logo_bot">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "zense.js"></script>
+</body>
+</html>
