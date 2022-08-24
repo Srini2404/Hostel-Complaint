@@ -1,0 +1,143 @@
+.heading{
+    color: #FFC23C;
+    font-style:normal;
+    font-size:xx-large;
+}
+.image{
+    margin-top: 5cm;
+}
+.title{
+    color: #FFC23C;
+}
+.invisible{
+    visibility: hidden;
+}
+#building-gif{
+    margin-top: 4cm;
+    margin-left: 3cm;
+    height: 250px; 
+}
+.bod1{
+    margin-top: -6cm;
+}
+.background{
+    margin-top: 10cm;
+    /*background-color:#100720;*/
+    background-image: url('Css/iiitb-campus_1594021417888.webp');
+}
+.background1{
+    /*background-color:#100720;*/
+    background-image: url('Css/iiitb-campus_1594021417888.webp');
+}
+.butto{
+    margin-top: -2cm;
+    margin-left: 3cm;
+}
+.middle_part{
+    margin-top: -8cm;
+    margin-left: 15cm;
+    width: 500px;
+    height: 800px;
+    position: absolute;
+    background-color: #31087B;
+    border: solid 5px;
+    border-color: #FFC23C;
+}
+.Options_type{
+    color: #FFC23C;
+    margin-top: 4cm;
+    background-color: #31087B;
+    width: 1000px;
+    border: solid 5px;
+    border-color: #FFC23C;
+
+
+}
+.signup_type{
+    color: #FFC23C;
+    background-color: #31087B;
+    width: 1000px;
+    border: solid 5px;
+    border-color: #FFC23C;
+
+
+}
+#logo_bot{
+    margin-left: 20cm;
+}
+.bottom{
+    position: fixed;
+    bottom: 0cm;
+    background-color: black;
+    color: black;
+    height: 275px;
+    margin-left: -1cm;
+    width: 10000px;
+}
+.bottom1{
+    position: fixed;
+    bottom: -1.25cm;
+    background-color: black;
+    color: black;
+
+    height: 275px;margin-left: -1cm;
+    width: 10000px;
+}
+.header{
+    position: fixed;
+    background-color:#FFC23C;
+    top: -0.5cm;
+    height: 150px;
+    width: 10000px;
+}
+#office{
+    margin-top: -4cm;
+   margin-left: 10cm; 
+   font-family: sans-serif;
+}
+#logo{
+margin-left: 42cm;
+}
+.butt :hover{
+    background-image: none;
+    background-color:  red;
+}
+.confirmation{
+    margin-top: 5cm;
+    /*color:	#33FF44;*/
+    color: #31087B;
+
+
+
+
+}
+.onclick{
+    box-shadow: 0 3px 4px #DBEDF3;
+    opacity: 0.5;
+}
+#support{
+    color: red;
+    /*color:#FFC23C;*/
+}
+#home-button{
+    padding: 30px 15px;
+    font-size: large;
+}
+#home-button:hover{
+    background-color: #FFC23C;
+    padding: 30px 15px;
+    font-size: large;
+    cursor: pointer;
+
+}
+#form-submit-button{
+    padding: 8px 15px;
+    font-size: large;
+}
+#form-submit-button:hover{
+    background-color: #FFC23C;
+    padding: 8px 15px;
+    font-size: large;
+    cursor: pointer;
+
+}
